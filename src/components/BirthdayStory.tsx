@@ -13,28 +13,28 @@ import FlashyImage from "./SliceAnimation";
 // Sample team members data - replace with real data
 const teamMembers = [
   {
-    name: "Alex Rodriguez",
-    message: "Wishing you a fantastic birthday filled with joy and success! 🎉",
+    name: "Bryan Sambieni",
+    message: "Good evening sir hope you are doing well. I wish you a happy birthday and many more years to come. May God bless you and your family abundantly, more grace, health and prosperity. Thanks alot for everything you have done for us, remain blessed. 🎉🎂🎈",
     role: "Frontend Developer",
   },
   {
-    name: "Sarah Chen",
+    name: "Sylvanus B.",
     message:
-      "Hope your special day is as amazing as you are! Happy Birthday! 🎂",
-    role: "UI/UX Designer",
-  },
-  {
-    name: "Mike Johnson",
-    message: "Another year of greatness! Have an incredible celebration! 🥳",
+      "A notre boss préféré, on a gardé le meilleur pour la fin. On pouvait pas vous oublier quand même. Merci pour l'année qu'on a passé ensemble, les bons moments (Atassi's day) et les bon conseils et surtout les bundle (Ouiii). Happy birthday to you boss! Wish you the best, a great health to overcome all your challenges and achieve your goals! Enjoy your day🎂",
     role: "Backend Developer",
-  },
-  {
-    name: "Emma Wilson",
-    message: "Celebrating you today and always! Happy Birthday boss! 🎈",
-    role: "Product Manager",
-  },
+  }
+  // ,
+  // {
+  //   name: "Mike Johnson",
+  //   message: "Another year of greatness! Have an incredible celebration! 🥳",
+  //   role: "Backend Developer",
+  // },
+  // {
+  //   name: "Emma Wilson",
+  //   message: "Celebrating you today and always! Happy Birthday boss! 🎈",
+  //   role: "Product Manager",
+  // },
 ];
-
 const BirthdayStory = () => {
   const [currentScene, setCurrentScene] = useState(0);
   const [knocksShown, setKnocksShown] = useState(0);
